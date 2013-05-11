@@ -46,16 +46,16 @@ div.section iframe { margin: 0; width: 100%; background: $color-bg-light url(../
 
 div.section iframe.jsfiddle { height: 260px; }
 
-div.section h2 { color: #38302b; font-size: 1.4em; font-weight: normal; margin: 0 30px 15px 50px; }
-div.section h2 a { /* color: #38302b; text-decoration: none; border: none; */ }
+div.section h2 { color: $color-bg-dark; font-size: 1.4em; font-weight: normal; margin: 0 30px 15px 50px; }
+div.section h2 a { /* color: $color-contrast; text-decoration: none; border: none; */ }
 
-div.section h3 { font-size: 1.2em; font-weight: bold; color: #444; }
+div.section h3 { font-size: 1.2em; font-weight: bold; color: $color-bg-dark; }
 
-div.section h4 { font-size: 1.1em; font-weight: bold; margin-bottom: -5px; color: #444; }
+div.section h4 { font-size: 1.1em; font-weight: bold; margin-bottom: -5px; color: $color-bg-dark; }
 
 div.section h4 + pre { margin-top: 10px; }
 
-div.section h5 { font-size: 1.1em; font-weight: bold; margin-bottom: -10px; color: #444; }
+div.section h5 { font-size: 1.1em; font-weight: bold; margin-bottom: -10px; color: $color-bg-dark; }
 
 div.section a { color: $color-link; text-decoration: none; border-bottom: 1px solid $color-link; padding: 1px 0; }
 div.section a:visited { border-color: #ccc; }
@@ -176,10 +176,10 @@ div.section pre.shell { background: rgba(0, 0, 0, .8) url(../images/dash.png) re
 div.section pre.shell samp { line-height: 1.5; display: block; padding: 1em 0 1em 20px; color: #fff; font-size: 1.1em; font-family: Consolas, Menlo, Monaco, 'Courier New', monospace; background: transparent url(../images/dash.png) repeat-x 0 100%; overflow: auto; white-space: pre; }
 
 div.section form, div.section div.submitted { padding: 2em 0 2em 50px; background: $color-bg-light url(../images/dash.png) repeat-x 0 0; margin: 2em 0 -2em 0; background: url(../images/dash.png) repeat-x scroll 0 0, url(../images/dash.png) repeat-x scroll 0 100% #fff; }
-div.section form:last-child, div.section div.submitted:last-child { background: $color-bg-light url(../images/dash.png) repeat-x 0 0; }
+div.section form:last-child, div.section div.submitted:last-child { background: $color-bg-dark url(../images/dash.png) repeat-x 0 0; }
 div.section div.submitted { padding: 2em 0; }
 div.section form fieldset { padding: 20px 0 0 0; }
-div.section form legend { color: #38302b; font-size: 1.4em; }
+div.section form legend { color: $color-contrast; font-size: 1.4em; }
 div.section form h2 { margin: 0 30px 20px 0; }
 div.section form dl { margin: 0; font-size: 1em; }
 div.section form dt { border-top: 1px solid #d0d0d0; color: #383838; width: 16em; padding: 0.2em 0.1em; float: left; clear: left; margin: 0 0.5em 0 0; position: relative; font-weight: normal; }
@@ -299,7 +299,7 @@ p.skip { position: absolute; left: -9999px; }
 
 #submenu { font-family: $font-menu, 'Courier New', monospace; position: absolute; top: 12.5em; left: 80em; width: 15em; }
 #submenu div { margin-bottom: 0.5em; }
-#submenu h2 { background: $color-base; color: #313131; font-size: 1.1em; font-weight: normal; padding: 3px 7px; }
+#submenu h2 { background: $color-base; color: $color-contrast; font-size: 1.1em; font-weight: normal; padding: 3px 7px; }
 .js-enabled #submenu h2.collapsable { cursor: pointer; }
 #submenu ul { font-size: 1.1em; text-transform: uppercase; }
 #submenu ul li { background: transparent url(../images/dash.png) repeat-x 0 0; padding-top: 1px; }
