@@ -2,13 +2,13 @@
   "themes":
     {
       "theme1":{
-        "color-base": "#f2bb00", 
-        "color-contrast": "#009de0", 
-        "color-link": "#00a0d2", 
-        "color-font-dark": "#363636", 
-        "color-bg": "rgba(255,255,255,.9)", 
-        "color-bg-light": "#ffffff", 
-        "color-bg-dark": "#333333",  
+        "color-base": "#f2bb00",
+        "color-contrast": "#009de0",
+        "color-link": "#00a0d2",
+        "color-font-dark": "#363636",
+        "color-bg": "rgba(255,255,255,.9)",
+        "color-bg-light": "#ffffff",
+        "color-bg-dark": "#333333",
 
         "font-main": "Verdana, sans-serif",
         "font-headings": "Verdana, sans-serif",
@@ -16,13 +16,13 @@
       },
 
       "theme2":{
-        "color-base": "#084299", 
-        "color-contrast": "#089952", 
-        "color-link": "#086fa3", 
-        "color-font-dark": "#363636", 
-        "color-bg": "rgba(#00828c,.2)", 
-        "color-bg-light": "#ffffff", 
-        "color-bg-dark": "#00828c",  
+        "color-base": "#084299",
+        "color-contrast": "#089952",
+        "color-link": "#086fa3",
+        "color-font-dark": "#ffffff",
+        "color-bg": "rgba(#00828c,.2)",
+        "color-bg-light": "#ffffff",
+        "color-bg-dark": "#00828c",
 
         "font-main": "Milonga, cursive",
         "font-headings": "'Days One', sans-serif",
@@ -30,13 +30,13 @@
       },
 
       "theme3":{
-        "color-base": "#0a7aa6", 
-        "color-contrast": "#f23005", 
-        "color-link": "#ff8900", 
-        "color-font-dark": "#363636", 
-        "color-bg": "rgba(#ffbe73,.5)", 
-        "color-bg-light": "#ffffff", 
-        "color-bg-dark": "#ffb800",  
+        "color-base": "#0a7aa6",
+        "color-contrast": "#f23005",
+        "color-link": "#ff8900",
+        "color-font-dark": "#363636",
+        "color-bg": "rgba(#ffbe73,.5)",
+        "color-bg-light": "#ffffff",
+        "color-bg-dark": "#ffb800",
 
         "font-main": "'Swanky and Moo Moo'",
         "font-headings": "'Faster One'",
@@ -44,13 +44,13 @@
       },
 
       "theme4":{
-        "color-base": "#ed6e6c", 
-        "color-contrast": "#5ba660", 
-        "color-link": "#567a78", 
-        "color-font-dark": "darken($color-link,10%)", 
-        "color-bg": "rgba(#97ad62,.2)", 
-        "color-bg-light": "rgba(#ed6e6c,.1)",
-        "color-bg-dark": "#a33a51",  
+        "color-base": "#ed6e6c",
+        "color-contrast": "#5ba660",
+        "color-link": "#567a78",
+        "color-font-dark": "darken($color-link,30%)",
+        "color-bg": "rgba(#97ad62,.6)",
+        "color-bg-light": "rgba(#ed6e6c,.4)",
+        "color-bg-dark": "#a33a51",
 
         "font-main": "Iceland",
         "font-headings": "'Just Me Again Down Here'",
@@ -58,13 +58,13 @@
       },
 
       "theme5":{
-        "color-base": "#424143", 
-        "color-contrast": "#cbc9cf", 
-        "color-link": "#ffffff", 
-        "color-font-dark": "#cbc9cf", 
+        "color-base": "#424143",
+        "color-contrast": "#cbc9cf",
+        "color-link": "#ffffff",
+        "color-font-dark": "#cbc9cf",
         "color-bg": "rgba(#67666a,.8)",
-        "color-bg-light": "#1e1e1f", 
-        "color-bg-dark": "rgba(#67666a,.4)",  
+        "color-bg-light": "#1e1e1f",
+        "color-bg-dark": "rgba(#67666a,.2)",
 
         "font-main": "'Courier New'",
         "font-headings": "'Abril Fatface'",
