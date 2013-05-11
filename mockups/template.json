@@ -1,0 +1,9 @@
+{
+	"default": {
+		"config" : "",
+		"pages" : ["index.html"],
+		"styles" : ["_variables.scss","mockup.scss"],
+		"scripts" : [],
+		"scripts" : [],
+	}
+}
