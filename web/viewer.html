@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Mochaccino viewer</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<style type="text/css">
+			html, body {
+				width: 100%;
+				height: 100%;
+				margin: 0;
+				padding; 0;
+				font-family: Arial;
+			}
+			h1, h2 {
+				line-height: .8em;
+				text-align: center;
+			}
+			#controls {
+				width: 100%;
+				height: 20%;
+				border-bottom: 2px solid black;
+			}
+			#prev {
+				float: left;
+			}
+			#next {
+				float: right;
+			}
+			#viewer {
+				width: 100%;
+				height: 80%;
+				background: #ccc;
+			}
+			.strike {
+				text-decoration: line-through;
+				color: #ccc;
+			}
+		</style>
+		<script src="views.js"></script>
+	</head>
+	<body>
+		<header id="controls">
+			<a id="prev" href="#">PREV</a>
+			<a id="next" href="#">NEXT</a>
+			<h1>Mochaccino</h1>
+			<h2>Instant <span class="strike">coffee</span> mockups</h2>
+		</header>
+		<iframe id="viewer" src="">Theme</iframe>
+		<script>
+			(function(){
+				console.debug(views);
+
+				var viewer = document.getElementById('viewer');
+				var prevBtn = document.getElementById('prev');
+				var nextBtn = document.getElementById('next');
+
+				var index = 0;
+				viewer.src = views[index];
+				
+				nextBtn.click(function(e){
+					e.preventDefault();
+					index++;
+					console.debug('go to '+views[index]);
+					viewer.src = views[index];
+				});
+
+			}());
+		</script>
+	</body>
+</html>

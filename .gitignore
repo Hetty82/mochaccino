@@ -2,3 +2,4 @@ node_modules
 dist
 nbproject
 .idea
+.sass-cache

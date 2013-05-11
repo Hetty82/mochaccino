@@ -38,18 +38,19 @@ module.exports = function(grunt) {
             {
                 cssString += "$" + rulename + ": " + cssObject[rulename] + ";\n";
             }
-            grunt.file.write(name + "styles/_variables.scss", cssString);
-            configObj.dist.files[name + '/styles/styles.css'] = themefolder + '/styles/styles.scss';
-            pages.push(name + '/pages/hackatron.html');
+            grunt.file.write(themefolder + "styles/_variables.scss", cssString);
+            configObj.dist.files[themefolder + '/styles/styles.css'] = themefolder + '/styles/styles.scss';
+            pages.push(name + '/pages/hackaton.html');
         }
         
         var viewsJS = 'var views = ' + JSON.stringify(pages) + ';';
         grunt.file.write('web/views.js', viewsJS);
-        
+     
+		grunt.config('sass', configObj);
+		grunt.task.run('sass');
+
         /** This is nice phantomjs stuff that does not work yet */
         /*
-    grunt.config('sass', configObj);
-    grunt.task.run('sass');
     
     var url ='http://www,google.com';
         // Create the PhantomJS proxy

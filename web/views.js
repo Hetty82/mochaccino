@@ -1,0 +1,1 @@
+var views = ["theme1/pages/hackaton.html","theme2/pages/hackaton.html","theme3/pages/hackaton.html","theme4/pages/hackaton.html","theme5/pages/hackaton.html"];
