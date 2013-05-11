@@ -13,6 +13,9 @@
   "author": "",
   "license": "BSD",
   "devDependencies": {
-    "grunt": "~0.4.1"
+    "grunt": "~0.4.1",
+    "grunt-contrib-sass": "~0.3.0",
+    "grunt-contrib-csslint": "~0.1.2",
+    "grunt-lib-phantomjs": "~0.3.0"
   }
 }
