@@ -11,6 +11,8 @@ module.exports = function(grunt) {
 			}
 		}
 	}
+    pkg: grunt.file.readJSON('package.json'),
+    themes: grunt.file.readJSON('themes-config.json')
   });
   
   // Actually load this plugin's task(s).
@@ -18,6 +20,7 @@ module.exports = function(grunt) {
   
   grunt.loadNpmTasks('grunt-contrib-sass');
 
+  grunt.loadTasks('tasks');
   // Default task(s).
   grunt.registerTask('default', ['sass']);
 
