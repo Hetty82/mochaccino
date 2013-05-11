@@ -64,7 +64,7 @@
         "color-font-dark": "#cbc9cf",
         "color-bg": "rgba(#67666a,.8)",
         "color-bg-light": "#1e1e1f",
-        "color-bg-dark": "rgba(#67666a,.2)",
+        "color-bg-dark": "lighten(rgba(#67666a,.5), 50%)",
 
         "font-main": "'Courier New'",
         "font-headings": "'Abril Fatface'",
